@@ -1,0 +1,279 @@
+/* font-family: 'Handlee', cursive;
+
+ */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+    margin: 0 auto;
+  
+}
+
+.icon-style{
+    color: rgb(255, 255, 255, .5);
+     background-color: rgba(54, 232, 255, 0.5); 
+    
+    padding: 1rem;
+}
+
+/* Header Starts */
+
+
+
+.container-fluid .navbar-brand{
+    font-size: 1.5rem;
+    color: brown;
+}
+
+.container-fluid a i{
+    font-size:2rem;
+}
+
+.banner-container{
+    height: 91vh;
+    background-image: url(image/bannar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.banner-content h1{
+    background-color: rgba(28, 142, 212, 0.5);
+    font-size: 3.5rem;
+    font-family: 'Handlee', cursive;
+    
+}
+
+.nav-item a {
+    transition: .4s ;
+}
+
+.nav-item a:hover {
+    background-color: rgb(193, 223, 219) ;
+    color: rgb(0, 0, 0);
+    border-radius: .4rem;
+}
+
+
+/* Header ends */
+
+
+
+/* Main starts */
+
+/* Section Features starts under Main*/
+
+.features{
+    background-color: lightslategray;
+    padding: 2rem;
+    color: white;
+}
+
+.feature{
+    border: 1px solid lightgoldenrodyellow;
+    text-align: center;
+    padding: 1rem .3rem;
+    transition: .4s;
+    /* margin: 1rem ; */
+    box-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+.feature:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 6px 3px black;
+}
+
+
+
+
+
+/* Section Features Ends Under Main*/
+
+
+/* Section About-Me starts Under Main*/
+
+#about-me{
+    background-color: rgb(119, 136, 153, .9);
+    padding: 1rem 2rem;
+}
+
+.about-me-title{
+    margin: 3rem 0;
+}
+
+.about-me-des{
+    padding: 2rem;
+    margin-bottom: .5rem;
+    /* border: 1px solid; */
+}
+
+.about-me-des h5{
+    margin-top: .5rem;
+    font-weight:900;
+}
+
+.about-me-des a{
+    color: black;
+}
+
+.personal-info p{
+    margin-bottom: 0;
+}
+
+
+.achivements span{
+    font-weight: 600;
+}
+
+.education p{
+    margin-bottom: 0;
+}
+
+.education h6{
+    font-weight: 600;
+    margin: 0;
+} 
+
+.experience p{
+    margin-bottom: 0;
+}
+
+.experience h6{
+    font-weight: 600;
+    margin: 0;
+}
+
+/* .star{
+    margin:0 .5rem;
+} */
+
+
+
+/* Section About-Me Ends Under Main*/
+
+
+
+/* Section Tutorial starts Under Main*/
+
+    #tutorials{
+        background-color: lightgray;
+        padding: 2rem;
+    }
+
+
+   .tutorial{
+    transition: .4s;
+   }
+
+   .tutorial:hover{
+    box-shadow: 3px 5px 4px rgb(146, 146, 146), -3px -5px 4px rgb(146, 146, 146);
+   }
+
+
+
+
+
+/* Section Tutorial Ends Under Main*/
+
+
+/* Section Feedback Starts Under Main*/
+
+#feedback{
+    background-color:lightblue ;
+}
+
+
+.first-img{
+    width: 10%;
+    height: auto;
+    text-align: center;
+    margin: 1% auto;
+    border-radius: 10%;
+
+    
+   
+}
+
+/* .feedback-paragraph{
+    margin-bottom: 50px;
+} */
+
+
+/* Section Feedback Ends Under Main*/
+
+
+/* Section Contact Starts Under Main*/
+
+#contact{
+    background-color: rgb(208, 223, 238);
+}
+
+.contact-form{
+    padding: 2rem;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    margin-bottom: 3rem;
+    border-radius: .3rem;
+}
+
+#contact label{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+
+
+/* Section Contact Ends Under Main*/
+
+
+/* Main Ends */
+
+
+
+/* Footer Starts */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    /* padding: .7rem 5rem; */
+}
+
+.footer-link{
+   display: flex;
+   align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.footer-link a {
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer-link a i{
+    font-size: 1.4rem;
+}
+
+/* Footer Starts */

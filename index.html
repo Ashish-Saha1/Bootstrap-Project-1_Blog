@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project-1</title>
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Bootstrap link -->
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <!-- Header Starts -->
+    <header>
+      <!-- Navbar Starts -->
+      <nav class="navbar navbar-expand-md  bg-dark sticky-top" data-bs-theme="dark">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class=" fa-solid fa-crown "></i> Brand</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class=" navbar-nav me-auto mb-0 mb-lg-0 ms-lg-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tutorials">Tutorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#feedback">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Navbar Ends -->
+
+
+      <!-- Bannar Starts -->
+      <div class="banner-container d-flex justify-content-center align-items-center">
+        <div class="banner-content">
+          <h1 class="mb-5 p-3 rounded">Learn Something New</h1>
+          <button class="btn btn-primary btn-lg me-3"> <i class="fas fa-play me-2"></i> Tutorial</button>
+          <button class="btn btn-primary btn-lg ms-3"><i class="fab fa-youtube me-2"></i> Subscribe</button>
+        </div>
+
+      </div>
+
+      <!-- Bannar ends -->
+
+    </header>
+
+    <!-- Header Ends -->
+
+
+    <!-- Main Starts -->
+    <main>
+      <!-- Features Starts Under Main-->
+      <section class="features container-fluid" id="feature">
+        <div class="row">
+          <div class=" col-md-4">
+            <div class="feature m-5 m-md-2">
+              <i class="fas fa-hand-holding-dollar fa-3x rounded-circle icon-style"></i>
+              <h1 class="fw-bold mt-3">Free to Use</h1>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum quod unde,
+                doloremque aspernatur quos.</p>
+            </div>
+          </div>
+
+          <div class=" col-md-4">
+            <div class="feature m-5 m-md-2">
+              <i class="fa-solid fa-school fa-3x rounded-circle icon-style"></i>
+              <h1 class="fw-bold mt-3">Easy To Learn</h1>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum quod unde,
+                doloremque aspernatur quos.</p>
+            </div>
+          </div>
+
+          <div class=" col-md-4">
+            <div class="feature m-5 m-md-2">
+              <i class="fa-regular fa-comments fa-3x rounded-circle icon-style"></i>
+              <h1 class="fw-bold mt-3">Fast Response</h1>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum quod unde,
+                doloremque aspernatur quos.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </section>
+
+      <!-- Features Ends Under Main-->
+
+
+      <!-- About-me Starts Under Main-->
+      <section id="about-me">
+        <div class="about-me-title">
+          <h3 class="text-center fw-bolder">About Me</h3>
+          <hr class="hr-style">
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="about-me-des personal-info text-center text-md-start">
+              <i class="fa-solid fa-user fa-3x icon-style rounded-circle"></i>
+              <h5>Personal Info</h5>
+              <p>Name: Ashish Saha</p>
+              <p>Profession: Wed Developer</p>
+              <p>Current Address: Netrokona, Mymensingh, Bangladesh</p>
+              <p>Website: <a href="https://www.samplesite.com">www.samplesite.com</a></p>
+              <button class="btn btn-primary mt-2">Download CV</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-7"></div>
+          <div class="col-lg-5">
+            <div class="about-me-des achivements text-center text-md-start">
+              <i class="fa-solid fa-trophy fa-3x icon-style rounded-circle"></i>
+              <h5>Achivements</h5>
+              <p><span>100% Tution Waiver:</span> Based on excellent academic result in Tampere university Finland.</p>
+              <p><span>Public Bank Scholarship:</span> 40,000 TK, for scoring CGA 3.90 out of 4 in Bsc.</p>
+              <p><span>Silver Button:</span> From Youtube because of 100,000 Subscribers. Curent subscriber are more
+                than 250000.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="about-me-des education text-center text-md-start">
+              <i class="fa-solid fa-graduation-cap fa-3x icon-style rounded-circle"></i>
+              <h5>Education</h5>
+              <h6>MSS in Sociology (2009)</h6>
+              <p>Anandamohan College</p>
+              <p>Mymensing, Dhaka, Bangladesh</p>
+              <p><a href="https://www.samplesite.com">www.nu-edu-bd.com</a></p>
+
+              <br>
+
+              <h6>BSS in Sociology (2008)</h6>
+              <p>Anandamohan College</p>
+              <p>Mymensing, Dhaka, Bangladesh</p>
+              <p><a href="https://www.samplesite.com">www.nu-edu-bd.com</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-7"></div>
+          <div class="col-lg-5">
+            <div class="about-me-des experience text-center text-md-start">
+              <i class="fa-solid fa-book-open fa-3x icon-style rounded-circle"></i>
+              <h5>Experience</h5>
+              <h6>Teritory Sales Manager (2011 - 2012)</h6>
+              <p>Akij Group Ltd</p>
+              <p>Dilkusha, Dhaka, Bangladesh</p>
+              <p><a href="https://www.akijgroup.com">www.akijgroup.com</a></p>
+
+              <br>
+
+              <h6>Customer Center Manager (2012- Continue)</h6>
+              <p>Mobicare Technologies Ltd.</p>
+              <p>Tangail, Dhaka, Bangladesh</p>
+              <p><a href="https://www.edison-bd.com">www.edison-bd.com</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="about-me-des skills text-center text-md-start">
+              <i class="fa-solid fa-briefcase fa-3x icon-style rounded-circle"></i>
+              <h5>Skills</h5>
+              <table style="width: 100%;">
+
+                <tr class="d-flex flex-column flex-lg-row justify-content-between">
+                  <td>HTML</td>
+                  <td>
+                    <span class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr class="d-flex flex-column flex-lg-row justify-content-between">
+                  <td>CSS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr class="d-flex flex-column flex-lg-row justify-content-between">
+                  <td>Bootstrap</td>
+                  <td>
+                    <span class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+                <tr class="d-flex flex-column flex-lg-row justify-content-between">
+                  <td>JS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half"></i>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+
+
+      </section>
+
+      <!-- About-me Starts Ends Main-->
+
+
+      <!-- Tutorial Starts Under Main-->
+
+      <section id="tutorials">
+        <div class="tutorial-title pt-5 pb-0 p-md-3 p-lg-5">
+          <h3 class="text-center fw-bolder">Tutorial</h3>
+          <hr class="hr-style">
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12 ">
+            <div class="card tutorial m-5 m-md-3 m-lg-0 text-center text-md-start">
+              <img class="card-img-top" src="./image/youtube_play.avif" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Youtube Marketing</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, soluta.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card tutorial m-5 m-md-3 m-lg-0 text-center text-md-start">
+              <img class="card-img-top" src="./image/facebook_play.avif" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Facebook Marketing</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, soluta.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 mb-2">
+            <div class="card tutorial m-5 m-md-3 m-lg-0 text-center text-md-start">
+              <img class="card-img-top" src="./image/instagram_play.avif" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Instagram Marketing</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, soluta.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 ">
+            <div class="card tutorial m-5 m-md-3 m-lg-0 text-center text-md-start">
+              <img class="card-img-top" src="./image/twitter_play.avif" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Twitter Marketing</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, soluta.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </section>
+
+      <!-- Tutorial Ends Under Main-->
+
+
+      <!-- Feedback Starts Under Main-->
+
+      <section id="feedback">
+
+        <div class="feedback-title pt-5 pb-0 p-md-3 p-lg-5">
+          <h3 class="text-center fw-bolder">Feedback</h3>
+          <hr class="hr-style">
+        </div>
+
+       <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center" data-bs-interval="1000">
+                  <img src="./image/feedback-1.avif" class="d-block first-img" alt="...">
+                  <h5> Ann Maria</h5>
+                  <p class="mb-5 px-5">Some representative placeholder content for the first slide Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, aspernatur..</p>
+                
+              </div>
+              <div class="carousel-item text-center">
+                  <img src="./image/feedback-2.avif" class="d-block first-img" alt="...">
+                  <h5>Joly Sangma</h5>
+                  <p class="mb-5 px-5">Some representative placeholder content for the second slide Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatem!</p>
+                
+              </div>
+              <div class="carousel-item text-center">
+                  <img src="./image/feedback-3.avif" class="d-block first-img" alt="...">
+                  <h5>Sarapova Feran</h5>
+                  <p class="mb-5 px-5">Some representative placeholder content for the third slide Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nulla?</p>
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+       </div>
+
+       
+  
+
+
+      </section>
+
+      <!-- Feedback Ends Under Main-->
+
+
+<!-- contact Starts Under Main-->
+      <section id="contact">
+        <div class="contact-title pt-5 pb-0 p-md-3 p-lg-5">
+          <h3 class="text-center fw-bolder">Contact Us</h3>
+          <hr class="hr-style">
+        </div>
+
+<div class="row">
+  <div class="col-8 col-md-6 col-lg-4 m-auto">
+    <form action="mailto:ashish.saha@edison-bd.com" method="post" enctype="text/plain" class="was-validated contact-form mt-3 mt-md-2 mt-lg-0">
+      <div class="form-group">
+        <label for="fulname" class="form-label">Full Name</label>
+        <input type="text" name="fulname" id="" required class="form-control">
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback ">Enter your Fullname first</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" id="" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea name="message" id="" cols="30" rows="5" class="form-control" required></textarea>
+      </div>
+
+      <div class="form-group">
+       <input type="button" value="Submit" class="btn btn-primary">
+       <input type="button" value="Reset" class="btn btn-primary">
+      </div>
+
+
+
+      
+    </form>
+  </div>
+</div>
+
+
+
+      </section>
+<!-- contact Starts Under Main-->
+
+    </main>
+
+
+    <!-- Main Ends-->
+  
+
+  <!-- Footer Starts-->
+
+<footer class="py-2 px-3 px-md-5">
+
+<div class="row ">
+  <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
+    <p class="small mb-0 mt-1">&copy; Copyright Ashish Saha</p>
+  </div>
+
+<div class="col-12 col-md-6 footer-link d-flex justify-content-center justify-content-md-end flex-wrap">
+  <a href="#">Home</a>
+  <a href=""><i class="fa-brands fa-square-facebook" style="color: #3b5998;"></i></a>
+  <a href=""><i class="fab fa-youtube" style="color: #c4302b;"></i></a>
+  <a href=""><i class="fab fa-twitter" style="color:#00acee ;"></i></a>
+  <a href=""><i class="fab fa-instagram" style="color:#d62976 ;"></i></a>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+    <!-- Footer Ends-->
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Bootstrap link below -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
